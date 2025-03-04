@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+@theme {
+  --color-red-cta-text: hsl(356, 100%, 66%);
+  --color-light-cta-hover: hsl(355, 100%, 74%);
+  --color-titles: hsl(208, 49%, 24%);
+  --color-body-text: hsl(207, 13%, 34%);
+  --color-footer-text: hsl(240, 2%, 79%);
+  --color-footer-bg: hsl(240, 10%, 16%);
+  --color-first-value-red: hsl(13, 100%, 72%);
+  --color-second-value-red: hsl(353, 100%, 62%);
+  --color-first-value-blue: hsl(237, 17%, 21%);
+  --color-second-value-blue: hsl(237, 23%, 32%);
+}
